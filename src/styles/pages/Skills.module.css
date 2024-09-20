@@ -1,6 +1,13 @@
-.container {
+  .container {
+    background-color: #203864;
+    background-image: url(/public//skyline-def.svg);
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
     display: flex;
-    height: 100vh;
-    width: 100vw;
-    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
   }

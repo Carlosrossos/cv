@@ -7,7 +7,7 @@ export default function Sidebar() {
   const year = new Date().getFullYear();
 
   return (
-    <div className={styles.main}>
+    <div className={styles.container}>
       <img
         className={styles.photoProfil}
         src="/photo-profil.jpg"
@@ -20,7 +20,7 @@ export default function Sidebar() {
             <Link to="/" className={styles.navLink}>Accueil</Link>
           </li>
           <li>
-            <Link to="/skills" className={styles.navLink}>Skills</Link>
+            <Link to="/skills" className={styles.navLink}>Parcours & Compétences</Link>
           </li>
           <li>
             <Link to="/portfolio" className={styles.navLink}>Portfolio</Link>

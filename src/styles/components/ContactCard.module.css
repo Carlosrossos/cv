@@ -1,0 +1,29 @@
+.container {
+  padding: 50px;
+  background-color: #325189; 
+}
+
+.container h2 {
+  font-size: 2.2rem;
+  text-align: left;
+}
+
+.container li {
+  margin: 10px 0px;
+  text-align: left;
+  padding-left: 0;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+}
+
+.contactLogo {
+    width: 40px;
+    height: 40px;
+}
