@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #101C33;
+    font-family: Avenir-Light;
+    color: white;
+  }
+
+  @font-face {
+    font-family: "Avenir-Light";
+    src: url("../fonts/AvenirLight.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }

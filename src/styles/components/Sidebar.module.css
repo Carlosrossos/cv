@@ -1,0 +1,101 @@
+.main {
+  background-color: #203864;
+  width: 20%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+}
+
+.photoProfil {
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 80%;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.navLink {
+  text-decoration: none;
+  color: inherit;
+  padding-left: 10px;
+}
+
+.navLink:hover {
+  font-size: 2.3rem;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 212, 255, 0) 52%
+  );
+}
+
+.logosContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.nav {
+  width: 100%;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+  text-align: left;
+}
+
+.list li {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.list li:last-child {
+  margin-bottom: 0;
+}
+
+.navLink {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.7rem;
+  text-decoration: none;
+  border-left: 2px solid white;
+  position: relative;
+  z-index: 2;
+}
+
+.navLink:hover {
+  color: #203864;
+}
+
+.navLink:after {
+  content: "";
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0px;
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  z-index: -1;
+  background: white;
+}
+
+.navLink:hover:after {
+  width: 100%;
+}
