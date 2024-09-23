@@ -30,8 +30,13 @@ export default function SkillsCard({ maxYears = 3 }) {
 
   return (
     <div className={styles.container}>
-      <h1>Compétences</h1>
+      <h1 className={styles.title}>Compétences</h1>
       <ul className={styles.skills}>
+        <li className={styles.legend}>
+            <span>Années de pratique</span>
+            <span>1 an</span>
+            <span>2 ans</span>
+        </li>
         {skills.map((skill, i) => (
           <li key={i} className={styles.skill}>
             <p>
@@ -41,10 +46,6 @@ export default function SkillsCard({ maxYears = 3 }) {
               <div
                 className={styles.progressBar}
                 style={{ width: `${progresses[i]}%` }}
-                data-completed={progresses[i] >= 100}
-                aria-valuenow={progresses[i]}
-                aria-valuemin={0}
-                aria-valuemax={100}
               ></div>
             </div>
           </li>
