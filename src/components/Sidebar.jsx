@@ -20,7 +20,7 @@ export default function Sidebar() {
             <Link to="/" className={styles.navLink}>Accueil</Link>
           </li>
           <li>
-            <Link to="/skills" className={styles.navLink}>Parcours & Compétences</Link>
+            <Link to="/skills" className={styles.navLink}>Parcours & Skills</Link>
           </li>
           <li>
             <Link to="/portfolio" className={styles.navLink}>Portfolio</Link>

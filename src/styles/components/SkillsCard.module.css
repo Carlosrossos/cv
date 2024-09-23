@@ -1,0 +1,35 @@
+.container {
+background-color: #325189;
+width: 500px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width :100%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.progressContainer {
+    height: 10px;
+    width: 300px;
+    background-color: #101C33;
+    border-radius: 20px;
+}
+
+.progressBar {
+    height: 10px;
+    background-color: white;
+    transition: width 1s ease-in-out;
+    border-radius: 20px;
+
+}
